@@ -1,0 +1,10 @@
+.linkDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+}
+
+.link {
+    color: black;
+}

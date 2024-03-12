@@ -1,5 +1,6 @@
 import WebFont from 'webfontloader';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
 
@@ -28,10 +29,10 @@ useEffect(() => {
         paddingTop: 6,
         opacity: .9
     }}>
-        <span>Home</span>
+        <Link style={{ color : 'skyblue'}} to="/">Home</Link>
         <span>Letter to Leaders</span>
-        <span>Contact</span>
-        <span>Education</span>
+        <Link style={{ color : 'skyblue'}} to="contact">Contact</Link>
+        <Link style={{ color : 'skyblue'}} to="education">Education</Link>
         <span>Media</span>
         <span>Resources</span>
         <span>Search</span>
