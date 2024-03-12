@@ -1,0 +1,15 @@
+.profileCard {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    position: absolute;
+    padding: 5px;
+    left: 25px;
+    top: 60px;
+    height: 500px;
+    width: 330px;
+    border: 2px skyblue solid;
+    border-radius: 5%;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5),
+              0px 0px 20px rgba(255, 255, 255, 0.2);
+}

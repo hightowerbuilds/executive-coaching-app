@@ -30,7 +30,7 @@ useEffect(() => {
         opacity: .9
     }}>
         <Link style={{ color : 'skyblue'}} to="/">Home</Link>
-        <span>Letter to Leaders</span>
+        <Link  style={{ color : 'skyblue'}} to="leadership">Leadership</Link>
         <Link style={{ color : 'skyblue'}} to="contact">Contact</Link>
         <Link style={{ color : 'skyblue'}} to="education">Education</Link>
         <span>Media</span>

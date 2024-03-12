@@ -1,4 +1,5 @@
 import NavBar from "../components/NavBar";
+import ProfileCard from "../components/ProfileCard";
 
 
 export default function Home() {
@@ -12,6 +13,8 @@ export default function Home() {
     }}>
 
     <NavBar />
+
+    <ProfileCard />
 
     </div>
   )
