@@ -1,0 +1,20 @@
+.homeLink {
+    font-family: monospace;
+    font-size: 26px;
+    color: beige;
+}
+
+.linkBox {
+    display: flex;
+    position: absolute;
+    left: 5%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5),
+    0px 0px 20px rgba(255, 255, 255, 0.2);
+   
+}

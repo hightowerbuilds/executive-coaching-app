@@ -19,6 +19,7 @@ export default function ProfileCard() {
         <p style={{ fontFamily: 'Roboto', color: 'lightblue'}}>
             Dr. Len Hightower
         </p>
+        <p></p>
     </div>
   )
 }
