@@ -1,17 +1,31 @@
+import WebFont from 'webfontloader';
+import { useEffect } from 'react';
 
 export default function NavBar() {
+
+
+useEffect(() => {
+  WebFont.load({
+    google: {
+      families: ['Ojuju', 'Open Sans', 'Roboto'] 
+    }
+  });
+}, []);
+
+
+
   return (
     <div style={{
         display: 'flex',
         justifyContent: 'space-around',
-        height: '5vh',
+        height: '3.5vh',
         width: '100%',
-        borderBottom: '3px lightgrey solid',
+        borderBottom: '1px lightgrey solid',
         backgroundColor: '#244456',
-        fontFamily: 'monospace',
+        fontFamily: 'Ojuju',
         fontSize: 22,
         color: 'skyblue',
-        paddingTop: 15,
+        paddingTop: 6,
         opacity: .9
     }}>
         <span>Home</span>
