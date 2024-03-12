@@ -29,13 +29,13 @@ useEffect(() => {
         paddingTop: 6,
         opacity: .9
     }}>
-        <Link style={{ color : 'skyblue'}} to="/">Home</Link>
-        <Link  style={{ color : 'skyblue'}} to="leadership">Leadership</Link>
-        <Link style={{ color : 'skyblue'}} to="contact">Contact</Link>
-        <Link style={{ color : 'skyblue'}} to="education">Education</Link>
-        <span>Media</span>
-        <span>Resources</span>
-        <span>Search</span>
+        <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="/">Home</Link>
+        <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="leadership">Leadership</Link>
+        <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="contact">Contact</Link>
+        <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="education">Education</Link>
+        <span style={{ color : 'skyblue', backgroundColor: '#244456'}}>Media</span>
+        <span style={{ color : 'skyblue', backgroundColor: '#244456'}}>Resources</span>
+        <span style={{ color : 'skyblue', backgroundColor: '#244456'}}>Search</span>
     </div>
   )
 }
