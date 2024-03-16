@@ -15,8 +15,9 @@ export default function ProfileCard() {
 
 
   return (
-    <div className="profileCard">
-        <p className='name'> Dr. Len Hightower </p>
-    </div>
+    <p className="profileCard">
+        <p className='name'> Dr. Len Hightower <br /> Execcutive Coaching </p>
+     
+    </p>
   )
 }
