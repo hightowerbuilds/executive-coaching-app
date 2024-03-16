@@ -10,12 +10,13 @@
     border: 1px lightcoral solid;
 }
 
-.contactButton {
+.footButton {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 26px;
     border: 2px lightcoral solid;
+
 
 }
