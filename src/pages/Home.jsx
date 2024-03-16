@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import ProfileCard from "../components/ProfileCard";
-
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
 
     <NavBar />
     <ProfileCard />
-
+    <Footer />
     </div>
   )
 }
