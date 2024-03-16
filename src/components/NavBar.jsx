@@ -18,7 +18,7 @@ useEffect(() => {
   return (
     <div style={{
         display: 'flex',
-        justifyContent: 'space-around',
+        justifyContent: 'flex-start',
         height: '3.5vh',
         width: '100%',
         borderBottom: '1px lightgrey solid',
@@ -26,16 +26,14 @@ useEffect(() => {
         fontFamily: 'Ojuju',
         fontSize: 22,
         color: 'skyblue',
-        paddingTop: 6,
+        padding: 3,
      
     }}>
-        <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="/">Home</Link>
-        <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="leadership">Leadership</Link>
-        <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="contact">Contact</Link>
-        <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="education">Education</Link>
-        <span style={{ color : 'skyblue', backgroundColor: '#244456'}}>Media</span>
-        <span style={{ color : 'skyblue', backgroundColor: '#244456'}}>Resources</span>
-        <span style={{ color : 'skyblue', backgroundColor: '#244456'}}>Search</span>
+        <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="/">Home</Link>
+        <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="leadership">Leadership</Link>
+        <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="contact">Contact</Link>
+        <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="education">Education</Link>
+   
     </div>
   )
 }

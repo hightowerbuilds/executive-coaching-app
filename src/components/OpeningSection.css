@@ -1,17 +1,20 @@
 .openSection {
     height: 98vh;
     width: 95%;
-    background-color: #243434;
+    border: 2px #243434 solid;
     position: absolute;
     top: 99.9vh;
     left: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5),
+    0px 0px 20px rgba(255, 255, 255, 0.2);
 }
 
 .heading {
-    background-color: #243434;
+    margin: 5%;
     font-family: monospace;
-    
+    color: lavender;
+    font-size: 32px;
 }
