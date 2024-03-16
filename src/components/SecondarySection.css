@@ -1,9 +1,9 @@
-.openSection {
-    height: 90vh;
+.secondSection {
+    height: 98vh;
     width: 95%;
     border: 2px #243434 solid;
     position: absolute;
-    top: 99.9vh;
+    top: 199.9vh;
     left: 25px;
     display: flex;
     justify-content: flex-start;

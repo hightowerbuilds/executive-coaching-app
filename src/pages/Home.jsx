@@ -2,6 +2,7 @@ import NavBar from "../components/NavBar";
 import ProfileCard from "../components/ProfileCard";
 import Footer from "../components/Footer";
 import OpeningSection from "../components/OpeningSection";
+import SecondarySection from "../components/SecondarySection";
 
 export default function Home() {
   return (
@@ -14,8 +15,10 @@ export default function Home() {
     }}>
 
     <NavBar />
-    <OpeningSection />
     <ProfileCard />
+    <OpeningSection />
+    <SecondarySection />
+    
     <Footer />
     </div>
   )
