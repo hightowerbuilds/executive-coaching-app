@@ -39,10 +39,11 @@ useEffect(() => {
      
     }}>
         <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="/">Home</Link>
-        <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="leadership">Leadership</Link>
-        <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="contact">Contact</Link>
+        <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="leadership">Leadership Experience</Link>
         <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="education">Education</Link>
-        <p style={{ backgroundColor: '#244456', position: 'absolute', left: '69%'}}>Dr. Len Hightower Executive Coaching</p>
+        <Link style={{ marginRight: 5, color : 'skyblue', backgroundColor: '#244456'}} to="contact">Contact</Link>
+
+        <p style={{ backgroundColor: '#244456', position: 'absolute', left: '51%', fontSize: 30, top: '0%'}}>Dr. Len Hightower Executive Coaching</p>
     </div>
   )
 }
