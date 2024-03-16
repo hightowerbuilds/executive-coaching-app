@@ -27,7 +27,7 @@ useEffect(() => {
         fontSize: 22,
         color: 'skyblue',
         paddingTop: 6,
-        // opacity: .9
+     
     }}>
         <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="/">Home</Link>
         <Link style={{ color : 'skyblue', backgroundColor: '#244456'}} to="leadership">Leadership</Link>
