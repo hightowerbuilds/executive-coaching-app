@@ -1,0 +1,17 @@
+.openSection {
+    height: 98vh;
+    width: 95%;
+    background-color: #243434;
+    position: absolute;
+    top: 99.9vh;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    background-color: #243434;
+    font-family: monospace;
+    
+}

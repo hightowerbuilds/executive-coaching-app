@@ -1,6 +1,6 @@
 import HomeNav from '../components/HomeNav'
 import './Education.css'
-import eagle from '../images/DSC_0112.jpeg'
+
 
 export default function Education() {
   return (
@@ -11,7 +11,7 @@ export default function Education() {
     
     <h2 className='eduHeading'>Education</h2>
     
-      <img className='eagleImage' src={eagle} alt="eagle" />
+     
     </div>
   )
 }

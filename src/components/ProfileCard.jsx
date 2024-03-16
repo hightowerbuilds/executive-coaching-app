@@ -16,10 +16,7 @@ export default function ProfileCard() {
 
   return (
     <div className="profileCard">
-        <p style={{ fontFamily: 'Roboto', color: 'lightblue'}}>
-            Dr. Len Hightower
-        </p>
-        <p></p>
+        <p className='name'> Dr. Len Hightower </p>
     </div>
   )
 }
